@@ -32,6 +32,7 @@ public class HomeFragment extends Fragment {
         View root = binding.getRoot();
 
         final TextView textView = binding.textHome;
+        final TextView textView2 = binding.textHome2;
         CanvasView canvas = binding.canvas;
         homeViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
